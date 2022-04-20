@@ -121,10 +121,12 @@ a {
     flex-wrap: nowrap;
     justify-content: space-between;
     margin: 0px 0px 80px;
+    padding-top: 30px;
 }
 
 .header-bottom {
     display: flex;
+    justify-content: space-between;
     margin: 0px;
     padding: 0px;
 }
@@ -144,7 +146,7 @@ a {
 }
 
 .placeholder {
-    width: 800px;
+    width: 700px;
     height: 240px;
     flex: 0 0 auto;
     background-color: #767a80;
