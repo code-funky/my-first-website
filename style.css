@@ -216,7 +216,6 @@ a {
     width: 800px;
     height: 100px;
     border-radius: 8px;
-    margin: 80px auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -236,3 +235,5 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+/*footer section style end*/
