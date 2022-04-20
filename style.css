@@ -57,7 +57,7 @@ a,
 }
 
 button,
-.sign-up-section {
+.sign-up-container {
     background-color: #3882F6;
 }
 
@@ -212,13 +212,15 @@ a {
 
 /*sign-up section style start*/
 
-.sign-up-section {
-    width: 800px;
-    height: 100px;
-    border-radius: 8px;
+.sign-up-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 800px;
+    height: 100px;
+    border-radius: 8px;
+    margin: 80px auto;
+    min-width: 800px;
 }
 
 .sign-up-section button {
