@@ -1,6 +1,8 @@
 # my-first-website
 The Odin Project landing page exercise
 
+Hero image
+Photo by Jonathan Cooper from Pexels
 
 Logo
 Image by <a href="https://pixabay.com/users/13smok-5135280/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2833643">13smok</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2833643">Pixabay</a>
