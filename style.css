@@ -2,7 +2,7 @@
 
 html *
 {
-   font-family: Arial !important;
+   font-family: 'Roboto', Arial !important;
 }
 
 body {
@@ -12,7 +12,6 @@ body {
 }
 
 .header,
-.information-header,
 .info-section,
 .quote-section,
 .sign-up-section,
@@ -23,11 +22,11 @@ body {
 
 .header,
 .footer {
-    background-color: #1F2937;
+    background-color: #2b570f;
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 600;
     color: #F9FAF8;
     flex-shrink: 0;
@@ -58,17 +57,25 @@ a,
 
 button,
 .sign-up-container {
-    background-color: #3882F6;
+    background-color: #612116;
+}
+
+.info-section {
+    background-image: linear-gradient(#2b570f, #556b17);
 }
 
 .information-header {
     font-size: 36px;
     font-weight: 800;
-    color: #1F2937;
+    color: #E5E7EB;;
 }
 
 .quote-section {
-    background-color: #E5E7EB;
+    background-image: linear-gradient(#556b17, #6a6b17);
+}
+
+.sign-up-section {
+    background-image: linear-gradient(#6a6b17, #6b5c17);
 }
 
 .quote {
@@ -96,8 +103,15 @@ button {
 
 /*header style start*/
 
+.logo-left  {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 .logo {
     flex-shrink: 0;
+
 }
 
 ul {
@@ -120,20 +134,20 @@ a {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    align-items: center;
     margin: 0px 0px 80px;
     padding-top: 30px;
 }
 
 .header-bottom {
     display: flex;
-    justify-content: space-between;
-    margin: 0px;
-    padding: 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 60px;
 }
 
 .hero-text {
     width: 440px;
-    height: 400px;
     flex: 0 0 auto;
 }
 
@@ -145,41 +159,30 @@ a {
     margin-bottom: 12px;
 }
 
-.placeholder {
-    width: 700px;
-    height: 240px;
-    flex: 0 0 auto;
-    background-color: #767a80;
-    color: #E5E7EB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /*header style end*/
 
 /*info section style start*/
 
-.info-section {
+.info-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 60px;
     height: 300px;
 }
 
 .information-header {
     text-align: center;
-    margin: 40px 0px;
+    padding: 40px 0px;
 }
 
 .info {
     max-width: 150px;
     text-align: center;
+    color: #E5E7EB;
 }
 
 .info-image {
-    border-style: solid;
-    border-color: #3882F6;
+    border: 2px solid #1F2937;
     border-radius: 12px;
     width: 140px;
     height: 140px;
@@ -198,19 +201,26 @@ a {
 }
 
 .quote {
-    width: 800px;
-    margin: auto;
+    width: 400px;
+    text-align: start;
+    padding-bottom: 20px;
 }
 
 .author {
-    width: 800px;
-    margin: auto;
+    width: 400px;
     text-align: end;
 }
 
 /*quote section style end*/
 
 /*sign-up section style start*/
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
 
 .sign-up-container {
     display: flex;
@@ -219,7 +229,7 @@ a {
     width: 800px;
     height: 100px;
     border-radius: 8px;
-    margin: 80px auto;
+    padding: 80px auto;
     min-width: 800px;
 }
 
